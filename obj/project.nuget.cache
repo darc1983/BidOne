@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "2U/1eFvBwq87T+DVJwkiiGgp8Tbq3RNo0sGI9prS0bEHjGaO5lmHyhpjpzieZWCvV+d/2JxWz5Wz9B+rcum5gQ==",
+  "success": true,
+  "projectFilePath": "C:\\AAA\\BidOne\\BidOne.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\drcon\\.nuget\\packages\\bootstrapicons.aspnetcore\\1.9.2\\bootstrapicons.aspnetcore.1.9.2.nupkg.sha512",
+    "C:\\Users\\drcon\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\drcon\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
+    "C:\\Users\\drcon\\.nuget\\packages\\microsoft.aspnetcore.razor.runtime\\2.2.0\\microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "C:\\Users\\drcon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\drcon\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

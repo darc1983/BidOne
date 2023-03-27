@@ -1,0 +1,48 @@
+@model IEnumerable<BidOne.Models.User>
+
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1>Users</h1>
+
+<p>
+    <a class="btn btn-success" asp-action="Create"><svg bootstrap-icon="PlusCircleFill" width="15" height="15" aria-label="Plus"></svg> Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LastName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastName)
+                </td>
+                <td>
+                    @* <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> | *@
+                    <a asp-action="Details" class="btn btn-warning" asp-route-id="@item.Id" title="Details"><svg bootstrap-icon="Search" width="15" height="15" aria-label="Search"></svg>Details</a> 
+                    @* <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> *@
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
